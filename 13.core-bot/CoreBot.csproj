@@ -378,10 +378,6 @@
     <Content Include="Schemas\Microsoft.IDialog.schema" />
     <Content Include="Schemas\Microsoft.IActivityTemplate.schema" />
     <Content Include="Schemas\Microsoft.LuisRecognizer.schema" />
-    <None Include="Properties\PublishProfiles\CoreBot20220519180346 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\TelegramBot1Resource - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\WebAzureBot - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\WebAzureBot - Web Deploy1.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -391,6 +387,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
